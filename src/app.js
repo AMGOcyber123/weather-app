@@ -126,23 +126,3 @@ module.exports = {
     geocode : geocode, 
     forecast : forecast
 }
-
-
-/*  what is the problem with the code given below ?
-app.get('/products', (req, res) => {
-    if(!req.query.search)
-    {
-        res.send({
-            error : "Provide search term !"
-        })
-    }
-    console.log(req.query.search);
-    res.send({
-        products: []
-    })
-})
-
-
-
-ans. user trying to send 2 responses to the serer when only one can be sent inorder to stop the execution of the second request simply add return to the first reuqest. 
-*/
