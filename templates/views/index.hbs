@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/css/images/cloud.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <form>
+            <input id="location" placeholder="Location">
+            <button type="submit" id="submit">Search</button>
+        </form>
+        <p id="message1" style="padding-top: 40px; padding-bottom : 10px"></p>
+        <p id="message2" style="padding-top: 10px; padding-bottom : 20px"></p>
+        <p id="message3"></p>
+
+    </div>
+
+
+    {{>footer}}
+</body>
+<script src="/js/app.js"></script>
+
+</html>

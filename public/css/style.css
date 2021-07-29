@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(214, 214, 214);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: black;
+    border-top: 1px solid rgb(110, 107, 107);
+    padding: 16px 4px;
+    margin-top: 16px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: rgb(0, 0, 0);
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: crimson;
+    transition: 0.3s ease;
+}
+
+.potrait {
+    width: 550px;
+}
+
+input {
+    background-color:transparent;
+    border: 0px;
+    border-bottom: 3px solid black;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: black solid;
+    font-family: 'Roboto', sans-serif;
+  }
+  ::-moz-placeholder {
+    color: solid black ;
+    font-family: 'Roboto', sans-serif;
+  }
+  :-ms-input-placeholder {
+    color: solid black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+#submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: -55px;
+    font-size: 18px;
+    outline: none;
+    padding: 15px 25px 15px 25px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all ease 0.44s;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+  }
+#submit:hover 
+{
+    background-color: rgb(255, 145, 0);
+    color: rgb(255, 238, 0);
+}
