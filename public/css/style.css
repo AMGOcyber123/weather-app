@@ -56,6 +56,9 @@ header a:hover{
 
 .potrait {
     width: 550px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 input {
@@ -105,4 +108,20 @@ input:focus {
 {
     background-color: rgb(255, 145, 0);
     color: rgb(255, 238, 0);
+}
+
+#help_page{
+    -webkit-touch-callout: none; 
+      -webkit-user-select: none; 
+       -khtml-user-select: none; 
+         -moz-user-select: none; 
+          -ms-user-select: none; 
+              user-select: none; 
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+}
+
+#about_page{
+    padding-top: 15px;
 }
