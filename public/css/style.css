@@ -22,6 +22,7 @@ body {
 }
 
 footer {
+    font-family: 'Roboto', sans-serif;
     color: black;
     border-top: 1px solid rgb(110, 107, 107);
     padding: 16px 4px;
@@ -29,22 +30,26 @@ footer {
 }
 
 header {
+    font-family: 'Roboto', sans-serif;
     margin-top: 16px;
     margin-bottom: 48px;
 }
 
 h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 64px;
     margin-bottom: 16px;
 }
 
 header a {
+    font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 0);
     margin-right: 16px;
     text-decoration: none;
 }
 
 header a:hover{
+    font-family: 'Roboto', sans-serif;
     color: crimson;
     transition: 0.3s ease;
 }
