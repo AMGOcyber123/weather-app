@@ -8,3 +8,8 @@ First node js project using simple FETCH() request to use the location provided 
 > Handlebars (or hbs) <br>
 > Nodemon<br>
 > request (deprecated) <br>
+
+We have used 2 APIs :
+1. Mapbox-API
+2. Weather-Stack API
+
