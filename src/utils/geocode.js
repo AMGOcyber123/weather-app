@@ -1,11 +1,11 @@
 // Geocoding 
 // Address => Lat/Long -> Weather
 
-
 const request = require('request')
+const token = process.env.WEBTOKEN
 const geoCode = (address,callback) =>
 {
-    const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'+encodeURIComponent(address)+'.json?access_token=pk.eyJ1IjoiYW1nb2JvdCIsImEiOiJja3F6Z2ZoY2EwNnY0MnNsZ2gwOTV1aWlhIn0.gzknmCddSJBrthD2il69aw&limit=1'
+    const url = 'https://api.mapbox.com/geocoding/v5/mapbox.places/'+encodeURIComponent(address)+'.json?access_token='+token+'&limit=1'
     request({url , json : true} , (error ,  {body}) =>{
         if(error)
         {
