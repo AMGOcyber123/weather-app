@@ -3,8 +3,8 @@ First node js project using simple FETCH() request to use the location provided 
 
 ## Installations
 ```` npm install ````
-Npm modules used
-> Express
-> Handlebars (or hbs)
-> Nodemon
-> request (deprecated)
+Npm modules used <br>
+> Express <br>
+> Handlebars (or hbs) <br>
+> Nodemon<br>
+> request (deprecated) <br>
